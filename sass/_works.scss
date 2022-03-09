@@ -1,0 +1,29 @@
+.works {
+  margin-bottom: 225px;
+  &-caption {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: calc(55 / 40);
+    color: $black-00;
+    margin-bottom: 70px;
+  }
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      cursor: pointer;
+    }
+  }
+}
+@media screen and (max-width: 1179.98px) {
+  .works {
+    &-content {
+      flex-direction: column;
+      &-images {
+        display: none;
+      }
+    }
+  }
+}
