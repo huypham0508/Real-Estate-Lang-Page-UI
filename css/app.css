@@ -122,6 +122,7 @@ body {
   width: 350px;
   top: 45px;
   right: 0;
+  transform: translateX(30%);
   transition: all 0.4s cubic-bezier(0.39, 0.575, 0.565, 1);
   z-index: 999;
 }
@@ -207,12 +208,7 @@ body {
   align-items: center;
   border: 1px solid #dadada;
   background: #fff;
-  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03),
-    0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778),
-    0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222),
-    0px 20px 13px rgba(0, 0, 0, 0.015),
-    0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778),
-    0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222);
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222);
   max-width: 756px;
   width: 100%;
   margin-bottom: 145px;
@@ -309,8 +305,7 @@ body {
   .hero {
     margin-bottom: 20px;
   }
-  .hero-partners-info,
-  .hero-partners-caption {
+  .hero-partners-info, .hero-partners-caption {
     display: none;
   }
   .hero-infomation {
@@ -383,12 +378,7 @@ body {
   line-height: 1.3529411765;
   background: #f85a47;
   color: #fff;
-  box-shadow: 0px 100px 80px rgba(248, 90, 71, 0.07),
-    0px 64.8148px 46.8519px rgba(248, 90, 71, 0.0531481),
-    0px 38.5185px 25.4815px rgba(248, 90, 71, 0.0425185),
-    0px 20px 13px rgba(248, 90, 71, 0.035),
-    0px 8.14815px 6.51852px rgba(248, 90, 71, 0.0274815),
-    0px 1.85185px 3.14815px rgba(248, 90, 71, 0.0168519);
+  box-shadow: 0px 100px 80px rgba(248, 90, 71, 0.07), 0px 64.8148px 46.8519px rgba(248, 90, 71, 0.0531481), 0px 38.5185px 25.4815px rgba(248, 90, 71, 0.0425185), 0px 20px 13px rgba(248, 90, 71, 0.035), 0px 8.14815px 6.51852px rgba(248, 90, 71, 0.0274815), 0px 1.85185px 3.14815px rgba(248, 90, 71, 0.0168519);
   border-radius: 5px;
   padding: 22px 33px;
 }
@@ -670,12 +660,7 @@ body {
   color: #fff;
   background: #f85a47;
   padding: 16px 38px;
-  box-shadow: 0px 100px 80px rgba(248, 90, 71, 0.07),
-    0px 64.8148px 46.8519px rgba(248, 90, 71, 0.0531481),
-    0px 38.5185px 25.4815px rgba(248, 90, 71, 0.0425185),
-    0px 20px 13px rgba(248, 90, 71, 0.035),
-    0px 8.14815px 6.51852px rgba(248, 90, 71, 0.0274815),
-    0px 1.85185px 3.14815px rgba(248, 90, 71, 0.0168519);
+  box-shadow: 0px 100px 80px rgba(248, 90, 71, 0.07), 0px 64.8148px 46.8519px rgba(248, 90, 71, 0.0531481), 0px 38.5185px 25.4815px rgba(248, 90, 71, 0.0425185), 0px 20px 13px rgba(248, 90, 71, 0.035), 0px 8.14815px 6.51852px rgba(248, 90, 71, 0.0274815), 0px 1.85185px 3.14815px rgba(248, 90, 71, 0.0168519);
   border-radius: 5px;
 }
 
@@ -709,8 +694,7 @@ body {
     align-items: center;
     flex-direction: column;
   }
-  .service-properties,
-  .service-value {
+  .service-properties, .service-value {
     text-align: center;
   }
 }
@@ -837,12 +821,7 @@ body {
   max-width: 686px;
   width: 100%;
   margin: 0 auto;
-  box-shadow: 0px 163px 80px rgba(0, 0, 0, 0.04),
-    0px 105.648px 46.8519px rgba(0, 0, 0, 0.0303704),
-    0px 62.7852px 25.4815px rgba(0, 0, 0, 0.0242963),
-    0px 32.6px 13px rgba(0, 0, 0, 0.02),
-    0px 13.2815px 6.51852px rgba(0, 0, 0, 0.0157037),
-    0px 3.01852px 3.14815px rgba(0, 0, 0, 0.00962963);
+  box-shadow: 0px 163px 80px rgba(0, 0, 0, 0.04), 0px 105.648px 46.8519px rgba(0, 0, 0, 0.0303704), 0px 62.7852px 25.4815px rgba(0, 0, 0, 0.0242963), 0px 32.6px 13px rgba(0, 0, 0, 0.02), 0px 13.2815px 6.51852px rgba(0, 0, 0, 0.0157037), 0px 3.01852px 3.14815px rgba(0, 0, 0, 0.00962963);
   border-radius: 15px;
   margin-bottom: 160px;
 }
@@ -865,12 +844,7 @@ body {
   padding: 23px 40px;
   color: #fff;
   background: #f85a47;
-  box-shadow: 0px 100px 80px rgba(248, 90, 71, 0.07),
-    0px 64.8148px 46.8519px rgba(248, 90, 71, 0.0531481),
-    0px 38.5185px 25.4815px rgba(248, 90, 71, 0.0425185),
-    0px 20px 13px rgba(248, 90, 71, 0.035),
-    0px 8.14815px 6.51852px rgba(248, 90, 71, 0.0274815),
-    0px 1.85185px 3.14815px rgba(248, 90, 71, 0.0168519);
+  box-shadow: 0px 100px 80px rgba(248, 90, 71, 0.07), 0px 64.8148px 46.8519px rgba(248, 90, 71, 0.0531481), 0px 38.5185px 25.4815px rgba(248, 90, 71, 0.0425185), 0px 20px 13px rgba(248, 90, 71, 0.035), 0px 8.14815px 6.51852px rgba(248, 90, 71, 0.0274815), 0px 1.85185px 3.14815px rgba(248, 90, 71, 0.0168519);
   border-radius: 4px;
 }
 .footer-border {
