@@ -111,3 +111,17 @@
     }
   }
 }
+@media screen and (max-width: 424.98px) {
+  .footer {
+    &-button {
+      position: relative;
+      margin-bottom: 70px;
+    }
+    &-btn {
+      position: absolute;
+      top: 100px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}

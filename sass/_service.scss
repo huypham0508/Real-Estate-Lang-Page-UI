@@ -124,3 +124,30 @@
     }
   }
 }
+@media screen and (max-width: 424.98px) {
+  .service {
+    &-heading {
+      font-size: 23px;
+    }
+    &-properties {
+      margin-bottom: 5px;
+    }
+    &-items {
+      margin-bottom: 10px;
+    }
+    &-description {
+      &-top {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 30px;
+      }
+      &-bot {
+        text-align: center;
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 30px;
+      }
+    }
+  }
+}

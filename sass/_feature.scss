@@ -1,7 +1,7 @@
 .feature {
   margin-bottom: 243px;
   &-header {
-    margin-bottom: 50px;
+    margin-bottom: 133px;
     &-top {
       display: flex;
       justify-content: space-between;
@@ -80,30 +80,108 @@
     top: 30px;
   }
 }
-@media screen and (max-width: 1179.98px) {
-  .feature {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    &-button,
-    &-heading {
-      margin-bottom: 20px;
-    }
-    &-images {
-      flex-direction: column;
-      margin-top: -15px;
-      img {
-        display: block;
-        margin-top: 15px;
+.slick {
+  &-arrow {
+    display: none !important;
+  }
+  &-dots {
+    left: -50px;
+    top: -75px;
+    position: absolute;
+    display: flex !important;
+    list-style: none;
+    li:first-child {
+      font-size: 0;
+      width: 190px;
+      height: 40px;
+      background: transparent;
+      position: relative;
+      ::before {
+        cursor: pointer;
+        content: "Residential Property";
+        position: absolute;
+        color: $black-00;
+        font-size: 19px;
+        line-height: calc(26 / 19);
       }
     }
-    &-header {
-      &-top {
-        display: block;
+    li:nth-child(2) {
+      font-size: 0;
+      width: 200px;
+      height: 40px;
+      background: transparent;
+      margin-left: 50px;
+      position: relative;
+      ::before {
+        cursor: pointer;
+
+        content: "Commercial Property";
+        position: absolute;
+        color: $black-00;
+        font-size: 19px;
+        line-height: calc(26 / 19);
+      }
+    }
+    li:nth-child(3) {
+      font-size: 0;
+      width: 190px;
+      height: 40px;
+      background: transparent;
+      margin-left: 50px;
+      position: relative;
+      ::before {
+        cursor: pointer;
+
+        content: "Agriculture Property";
+        position: absolute;
+        color: $black-00;
+        font-size: 19px;
+        line-height: calc(26 / 19);
+      }
+    }
+    li:last-child {
+      font-size: 0;
+      width: 190px;
+      height: 40px;
+      background: transparent;
+      margin-left: 50px;
+      position: relative;
+      ::before {
+        cursor: pointer;
+
+        content: "Industrial Property";
+        position: absolute;
+        color: $black-00;
+        font-size: 19px;
+        line-height: calc(26 / 19);
       }
     }
   }
+  &-active {
+    display: block;
+    position: absolute;
+    width: 190px;
+    text-align: left;
+    border-bottom: 2px $orange-f8 solid;
+  }
 }
+@media screen and (max-width: 1023.98px) {
+  .feature {
+    margin-bottom: 150px;
+    &-header {
+      margin-bottom: 50px;
+    }
+    &-images {
+      justify-content: center;
+    }
+  }
+  .slick {
+    &-dots {
+      display: none !important;
+    }
+  }
+}
+
 @media screen and (max-width: 829.98px) {
   .feature {
     &-items {
@@ -112,7 +190,6 @@
     }
   }
 }
-
 @media screen and (max-width: 767.98px) {
   .feature {
     margin-bottom: 110px;
@@ -147,6 +224,22 @@
           top: 15px;
         }
       }
+    }
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .feature {
+    &-header {
+      &-top {
+        margin-bottom: 20px;
+      }
+    }
+    &-heading {
+      font-size: 20px;
+    }
+    &-button {
+      padding: 10px 13px;
+      font-size: 12px;
     }
   }
 }
