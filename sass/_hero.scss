@@ -157,6 +157,12 @@
 @media screen and (max-width: 767.98px) {
   .hero {
     margin-bottom: 20px;
+    &-caption {
+      font-size: 20px;
+    }
+    &-heading {
+      font-size: 25px;
+    }
     &-partners {
       &-info,
       &-caption {
@@ -169,6 +175,15 @@
     &-btn {
       padding: 10px 13px;
       font-size: 14px;
+    }
+    &-button {
+      max-width: 200px;
+      width: 100%;
+      margin-bottom: 145px;
+      padding-left: 10px;
+      img {
+        display: none;
+      }
     }
     &-input {
       flex: 1;

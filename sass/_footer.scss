@@ -90,6 +90,12 @@
 }
 @media screen and (max-width: 767.98px) {
   .footer {
+    &-caption {
+      font-size: 25px;
+    }
+    &-heading {
+      font-size: 18px;
+    }
     &-button {
       padding: 20px 20px;
       background: #ffffff;

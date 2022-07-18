@@ -150,6 +150,9 @@ body {
   }
 }
 @media screen and (max-width: 767.98px) {
+  .header {
+    margin-bottom: 50px;
+  }
   .header-menu {
     display: none;
   }
@@ -305,6 +308,12 @@ body {
   .hero {
     margin-bottom: 20px;
   }
+  .hero-caption {
+    font-size: 20px;
+  }
+  .hero-heading {
+    font-size: 25px;
+  }
   .hero-partners-info, .hero-partners-caption {
     display: none;
   }
@@ -314,6 +323,15 @@ body {
   .hero-btn {
     padding: 10px 13px;
     font-size: 14px;
+  }
+  .hero-button {
+    max-width: 200px;
+    width: 100%;
+    margin-bottom: 145px;
+    padding-left: 10px;
+  }
+  .hero-button img {
+    display: none;
   }
   .hero-input {
     flex: 1;
@@ -352,6 +370,11 @@ body {
   }
   .works-content-images {
     display: none;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .works-caption {
+    font-size: 25px;
   }
 }
 .feature {
@@ -697,6 +720,9 @@ body {
   .service-properties, .service-value {
     text-align: center;
   }
+  .service-caption {
+    font-size: 25px;
+  }
 }
 @media screen and (max-width: 424.98px) {
   .service-heading {
@@ -789,6 +815,9 @@ body {
   .testimonial {
     margin-bottom: 10px;
   }
+  .testimonial-heading {
+    font-size: 25px;
+  }
 }
 .footer {
   background: #fbfcfc;
@@ -870,6 +899,12 @@ body {
 }
 
 @media screen and (max-width: 767.98px) {
+  .footer-caption {
+    font-size: 25px;
+  }
+  .footer-heading {
+    font-size: 18px;
+  }
   .footer-button {
     padding: 20px 20px;
     background: #ffffff;

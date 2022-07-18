@@ -65,5 +65,8 @@
 @media screen and (max-width: 767.98px) {
   .testimonial {
     margin-bottom: 10px;
+    &-heading {
+      font-size: 25px;
+    }
   }
 }
